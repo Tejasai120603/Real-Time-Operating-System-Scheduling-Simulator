@@ -1,0 +1,6 @@
+/mnt/d/Btech/4th Year/4-1/Project/RTS/Lab-Project-FreeRTOS-POSIX-main/build_wsl/CMakeFiles/freertos_posix.dir
+/mnt/d/Btech/4th Year/4-1/Project/RTS/Lab-Project-FreeRTOS-POSIX-main/build_wsl/CMakeFiles/freertos_kernel.dir
+/mnt/d/Btech/4th Year/4-1/Project/RTS/Lab-Project-FreeRTOS-POSIX-main/build_wsl/CMakeFiles/posix_threading_demo.dir
+/mnt/d/Btech/4th Year/4-1/Project/RTS/Lab-Project-FreeRTOS-POSIX-main/build_wsl/CMakeFiles/rts_simulation.dir
+/mnt/d/Btech/4th Year/4-1/Project/RTS/Lab-Project-FreeRTOS-POSIX-main/build_wsl/CMakeFiles/edit_cache.dir
+/mnt/d/Btech/4th Year/4-1/Project/RTS/Lab-Project-FreeRTOS-POSIX-main/build_wsl/CMakeFiles/rebuild_cache.dir

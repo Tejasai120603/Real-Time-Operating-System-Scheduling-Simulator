@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/rts_simulation.dir/rts_simulation.c.o -o bin/rts_simulation  lib/libfreertos_posix.a lib/libfreertos_kernel.a -lpthread -lrt 

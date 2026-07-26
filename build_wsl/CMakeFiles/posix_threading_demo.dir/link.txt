@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/posix_threading_demo.dir/posix_threading_demo.c.o -o bin/posix_threading_demo  lib/libfreertos_posix.a lib/libfreertos_kernel.a -lpthread -lrt 
