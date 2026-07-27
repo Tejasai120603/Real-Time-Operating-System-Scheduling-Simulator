@@ -1,12 +1,174 @@
-## FreeRTOS+POSIX: Portable Operating System Interface (POSIX threading wrapper) for FreeRTOS
+# Real-Time Scheduling (RTS) Simulation using FreeRTOS+POSIX
 
-The Portable Operating System Interface (POSIX) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems. FreeRTOS+POSIX implements *a small subset* of the [POSIX threading](https://pubs.opengroup.org/onlinepubs/7908799/xsh/threads.html) API. This subset allows application developers familiar with POSIX API to develop a FreeRTOS application using POSIX like threading primitives. FreeRTOS+POSIX does not implement more than 80% of the POSIX API. Therefore, an existing POSIX compliant application or a POSIX compliant library cannot be ported to run on FreeRTOS Kernel using only this wrapper. 
+> A C-based Real-Time Scheduling (RTS) simulation built using the FreeRTOS+POSIX wrapper to demonstrate task scheduling, multitasking, synchronization, and core Real-Time Operating System (RTOS) concepts.
 
+---
 
-This repository only contains source code. For demo applications, please visit https://github.com/FreeRTOS/FreeRTOS-Labs. 
+## 📖 Overview
 
-## To consume FreeRTOS+POSIX 
-It is recommended to use this repository as a submodule. Please refer to [Git Tools — Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). 
+This project demonstrates the implementation of a Real-Time Scheduling (RTS) simulation using the FreeRTOS+POSIX API. It provides a practical environment for understanding how real-time operating systems manage multiple concurrent tasks through scheduling algorithms, thread management, synchronization mechanisms, and timing operations.
 
-## Notes
-This project is undergoing optimizations or refactorization to improve memory usage, modularity, documentation, demo usability, or test coverage. 
+The simulator is designed as an educational and experimental platform for students, embedded systems enthusiasts, and developers interested in learning RTOS concepts without requiring dedicated embedded hardware.
+
+The project is implemented entirely in **C** and utilizes the **FreeRTOS+POSIX** threading wrapper, enabling execution on desktop operating systems while preserving FreeRTOS programming concepts.
+
+---
+
+## 🚀 Features
+
+- Real-Time task scheduling simulation
+- POSIX thread-based FreeRTOS implementation
+- Multi-threaded task execution
+- Modular project architecture
+- Build automation scripts
+- Well-organized source code
+- Test environment for validation
+- Comprehensive project documentation
+- Beginner-friendly implementation for RTOS learning
+
+---
+
+## 🛠️ Technologies Used
+
+- C Programming Language
+- FreeRTOS+POSIX
+- POSIX Threads (pthreads)
+- GCC Compiler
+- Make / Build Scripts
+- Windows Batch Automation
+
+---
+
+## 📂 Project Structure
+
+```
+RTS-Simulation/
+│
+├── build/                 # Build output
+├── build_wsl/             # Linux/WSL build files
+├── include/               # Header files
+├── test/                  # Test files
+│
+├── rts_simulation.c       # Main source code
+├── build_rts.bat          # Build script
+├── run_rts.bat            # Run script
+│
+├── README.md
+├── QUICK_START.md
+├── SETUP_GUIDE.md
+├── PROJECT_FILES.md
+├── RTS_PROJECT_README.md
+└── LICENSE
+```
+
+---
+
+## ⚙️ Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/YourUsername/RTS-Simulation.git
+```
+
+### Navigate to the project
+
+```bash
+cd RTS-Simulation
+```
+
+### Build the project
+
+Windows
+
+```bash
+build_rts.bat
+```
+
+Linux / WSL
+
+```bash
+make
+```
+
+### Run the simulation
+
+```bash
+run_rts.bat
+```
+
+or
+
+```bash
+./rts_simulation
+```
+
+---
+
+## 🎯 Learning Objectives
+
+This project helps in understanding:
+
+- Real-Time Operating Systems
+- POSIX Threading
+- Task Scheduling
+- Concurrent Programming
+- Thread Synchronization
+- Scheduling Policies
+- Embedded Software Development
+- Operating System Concepts
+
+---
+
+## 📚 Documentation
+
+The repository contains detailed documentation to help users understand and execute the project.
+
+- 📄 Quick Start Guide
+- 📄 Setup Guide
+- 📄 Project Documentation
+- 📄 Build Instructions
+
+---
+
+## 🔮 Future Enhancements
+
+- Support additional scheduling algorithms
+- Priority inheritance implementation
+- Deadlock simulation
+- Task monitoring dashboard
+- Performance benchmarking
+- Cross-platform build improvements
+- Enhanced visualization of task execution
+
+---
+
+## 👨‍💻 Author
+
+**Teja Sai**
+
+B.Tech – Electronics and Computer Engineering  
+Amrita Vishwa Vidyapeetham, Bengaluru
+
+GitHub: https://github.com/Tejasai120603
+
+---
+
+## 🤝 Contributions
+
+Contributions, suggestions, and improvements are welcome.
+
+Feel free to fork this repository and submit a Pull Request.
+
+---
+
+## 📜 License
+
+This project is released under the MIT License.
+See the `LICENSE` file for more details.
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub. It helps others discover the project and motivates future improvements.
