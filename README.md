@@ -147,7 +147,7 @@ The repository contains detailed documentation to help users understand and exec
 
 **Teja Sai**
 
-B.Tech – Electronics and Computer Engineering  
+B.Tech – Electronics and Computer Engineering -- [EAC]
 Amrita Vishwa Vidyapeetham, Bengaluru
 
 GitHub: https://github.com/Tejasai120603
@@ -159,13 +159,6 @@ GitHub: https://github.com/Tejasai120603
 Contributions, suggestions, and improvements are welcome.
 
 Feel free to fork this repository and submit a Pull Request.
-
----
-
-## 📜 License
-
-This project is released under the MIT License.
-See the `LICENSE` file for more details.
 
 ---
 
