@@ -333,6 +333,7 @@ It focuses on applying theoretical concepts such as scheduling, multitasking, sy
 **Amrita Vishwa Vidyapeetham, Bengaluru**
 
 GitHub: [@Tejasai120603](https://github.com/Tejasai120603)
+LinkedIn:[Teja Sai Yallamelli] (https://linkedin.com/in/teja-sai-yallamelli-a5685b320)
 
 ---
 
@@ -347,14 +348,6 @@ If you would like to contribute:
 3. Implement your changes.
 4. Test the changes.
 5. Submit a Pull Request.
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
-See the [`LICENSE`](LICENSE) file for details.
 
 ---
 
